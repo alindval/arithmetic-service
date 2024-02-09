@@ -4,7 +4,7 @@ const cors = require('cors')
 app.use(cors());
 const port = 3000;
 app.get('/',(req,res)=>{
-    res.send("hw")
+    res.send("no request")
 
 });
 
